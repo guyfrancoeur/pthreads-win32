@@ -61,3 +61,4 @@ INSTALL (TARGETS pthreads
   LIBRARY DESTINATION lib COMPONENT Runtime
   ARCHIVE DESTINATION lib COMPONENT Development
 )
+INSTALL (FILES pthread.h sched.h semaphore.h DESTINATION include)
